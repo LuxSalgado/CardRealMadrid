@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+    font-family: comic sans ms, comic sans, cursive; 
+}
+.postcard{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+.cardheader{
+    display: flex;
+}
+.cardbody{
+    display: flex;
+}
+.cardfooter{
+    display: flex;
+    justify-content: center;
+}
+.body-left{
+    justify-content: space-around;
+}
+h1{
+    margin: 0;
+    width: 350px;
+}
+input{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+p{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+button{
+    box-shadow: 2px 2px #888888;
+}
